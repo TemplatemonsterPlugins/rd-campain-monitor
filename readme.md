@@ -200,24 +200,24 @@
 
 Для подключения формы подписки к своему аккаунту Campaign Monitor, Вам необходимо зайти на страницу списков(1), создать список(2) или выбрать уже существующий(3).
 
-https://www.templatemonster.com/help/quick-start-guide/website-templates/v1-4/img/campain.png
+![](https://www.templatemonster.com/help/quick-start-guide/website-templates/v1-4/img/campain.png)
 
 Перейти в раздел "Sign up forms"
 
-https://www.templatemonster.com/help/quick-start-guide/website-templates/v1-4/img/campain-1.jpg
+![](https://www.templatemonster.com/help/quick-start-guide/website-templates/v1-4/img/campain-1.jpg)
 
 Перейти в раздел "Copy/paste a form to your site"
 
-https://www.templatemonster.com/help/quick-start-guide/website-templates/v1-4/img/campain-2.png
+![](https://www.templatemonster.com/help/quick-start-guide/website-templates/v1-4/img/campain-2.png)
 
 Сгеннерировать код формы
 
-https://www.templatemonster.com/help/quick-start-guide/website-templates/v1-4/img/campain-3.png
+![](https://www.templatemonster.com/help/quick-start-guide/website-templates/v1-4/img/campain-3.png)
 
 Скопировать атрибут action элемента form и атрибут name элемента input[type='email'] сгенерированной формы и вставить в форму вашего сайта соответственно. 
 Пример кода формы:
 
-		<!-- Campaign Monitor-->
+    <!-- Campaign Monitor-->
     <form class="campaign-mailform form-inline" data-form-output="form-output-global" action="https://templatermonster.createsend.com/t/j/s/zjjikd/" method="post">
       <div class="form-wrap">
         <label class="form-label" for="campaign-email">Enter your e-mail</label>
@@ -228,5 +228,5 @@ https://www.templatemonster.com/help/quick-start-guide/website-templates/v1-4/im
       </div>
     </form>
 
-		<!-- Елемент в который будет выводиться информация об ошибке-->
-		<div class="form-output-global"></div>
+    <!-- Елемент в который будет выводиться информация об ошибке-->
+    <div class="form-output-global"></div>
