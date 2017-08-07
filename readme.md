@@ -1,4 +1,4 @@
-# RD Mailform
+# Сampain monitor
 
 Вам необходимо взять исходники из файла репозитория js/core.min.js
 
