@@ -217,7 +217,7 @@ https://www.templatemonster.com/help/quick-start-guide/website-templates/v1-4/im
 Скопировать атрибут action элемента form и атрибут name элемента input[type='email'] сгенерированной формы и вставить в форму вашего сайта соответственно. 
 Пример кода формы:
 
-		<!-- Campaign Monitor-->
+    <!-- Campaign Monitor-->
     <form class="campaign-mailform form-inline" data-form-output="form-output-global" action="https://templatermonster.createsend.com/t/j/s/zjjikd/" method="post">
       <div class="form-wrap">
         <label class="form-label" for="campaign-email">Enter your e-mail</label>
@@ -228,5 +228,5 @@ https://www.templatemonster.com/help/quick-start-guide/website-templates/v1-4/im
       </div>
     </form>
 
-		<!-- Елемент в который будет выводиться информация об ошибке-->
-		<div class="form-output-global"></div>
+    <!-- Елемент в который будет выводиться информация об ошибке-->
+    <div class="form-output-global"></div>
