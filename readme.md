@@ -1,8 +1,8 @@
 # Сampain monitor
 
-Вам необходимо взять исходники из файла репозитория js/core.min.js
+You need to take the sources from the repository file js/core.min.js
 
-Для инициализации формы, Вам необходимо вставить даный JS код.
+To initialize the form, you need to insert this JS code.
 
 	  /**
 	   * Global variables
@@ -198,24 +198,24 @@
 
 ## Campaign Monitor
 
-Для подключения формы подписки к своему аккаунту Campaign Monitor, Вам необходимо зайти на страницу списков(1), создать список(2) или выбрать уже существующий(3).
+To connect the subscription form to your Campaign Monitor account, you need to go to the Lists page (1), create a list (2) or select an existing one (3).
 
 ![](https://www.templatemonster.com/help/quick-start-guide/website-templates/v1-4/img/campain.png)
 
-Перейти в раздел "Sign up forms"
+Go to the “Sign up forms” section.
 
 ![](https://www.templatemonster.com/help/quick-start-guide/website-templates/v1-4/img/campain-1.jpg)
 
-Перейти в раздел "Copy/paste a form to your site"
+Then select the “Copy/paste a form to your site” section.
 
 ![](https://www.templatemonster.com/help/quick-start-guide/website-templates/v1-4/img/campain-2.png)
 
-Сгеннерировать код формы
+Afterward, generate the form code.
 
 ![](https://www.templatemonster.com/help/quick-start-guide/website-templates/v1-4/img/campain-3.png)
 
-Скопировать атрибут action элемента form и атрибут name элемента input[type='email'] сгенерированной формы и вставить в форму вашего сайта соответственно. 
-Пример кода формы:
+Finally, copy the action attribute of form element and attribute name of input[type='email'] element of the form you generated and paste it into the form of your website. 
+Here’s an example of the form code:
 
     <!-- Campaign Monitor-->
     <form class="campaign-mailform form-inline" data-form-output="form-output-global" action="https://templatermonster.createsend.com/t/j/s/zjjikd/" method="post">
@@ -228,5 +228,5 @@
       </div>
     </form>
 
-    <!-- Елемент в который будет выводиться информация об ошибке-->
+    <!-- Element for for resault -->
     <div class="form-output-global"></div>
